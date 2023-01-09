@@ -286,6 +286,10 @@ section{
                         position: absolute;
                         top: 0;
                         left: 0;
+                        height: 100%;
+                        background-color: var(--color-secondary);
+                        transition: all .4s ease-in-out;
+                        width: 60%;
                     }
 
                 }
