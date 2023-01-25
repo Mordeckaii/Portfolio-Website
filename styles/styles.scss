@@ -157,7 +157,7 @@ section{
             height: 90%;
             width: 68%;
             margin-left: 4rem;
-            background-color: rgba(2, 2, 2, 0.963);
+            background-color: var(--color-black);
             transition: all .4s ease-in-out;
             img{
                width: 100%;
@@ -202,6 +202,7 @@ section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
+        padding-right: 5rem;
         .about-item{
            border: 1px solid var(--color-grey-5); 
            border-radius: 5px;
