@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary:#04091a;
+  --color-primary: #04091a;
   --color-secondary: rgb(132, 186, 236);
   --color-white: #ffffff;
   --color-black: #000;
@@ -18,7 +18,7 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.4);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -83,16 +83,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
